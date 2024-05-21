@@ -41,6 +41,10 @@ const limiter = rateLimit({
   legacyHeaders: false,
 });
 
+app.get("/" , (req , res)=>{
+  res.send("Welcome to gyanMarg")
+})
+
 // routes
 app.use(
   '/api/v1',

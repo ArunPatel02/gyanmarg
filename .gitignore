@@ -1,0 +1,10 @@
+client/.next
+client/node_modules
+clent/.env
+
+server/node_modules
+server/.env
+server.package-lock.json
+server/build
+
+.env.prod

@@ -26,7 +26,7 @@ app.use(cookieParser());
 // cors => cross origin resource sharing
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://gyanmarg.vercel.app'],
+    origin: ['http://localhost:3000', 'https://gyanmarg.vercel.app', 'https://gyanmarg-ed.vercel.app/'],
     credentials: true,
   })
 );
